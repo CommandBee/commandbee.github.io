@@ -1,29 +1,48 @@
 body {
-    background: rgb(23, 21, 21);
+    background: rgb(49, 49, 49);
     color: white;
     font-family: Hevetica Neue, Helverica, Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     background: black;
     padding: 20px 40px;
 
 }
 
-section{
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+section {
     padding: 20px;
     display: flex;
     flex-direction: row;
 }
 
-div{
-    background: red;
+.feature-box div {
     margin: auto;
     width: 100px;
-
 }
+
+.feature-box.index div {
+    background: red;
+}
+
+.feature-box.datapacks div {
+    background: blue;
+}
+
+
+.feature-box.generators div {
+    background: green;
+}
+
 
 ul {
     margin: 0;
@@ -33,10 +52,24 @@ ul {
 
 li {
     display: inline-block;
-    margin-right: 20px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 20px;
 }
 
-footer{
+li:hover {
+    background-color: red;
+}
+li:first-child {
+    margin-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
     background: black;
     padding: 10px 20px; 
 }
