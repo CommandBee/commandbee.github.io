@@ -28,6 +28,9 @@ section {
 .feature-box div {
     margin: auto;
     width: 100px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .feature-box.index div {
@@ -43,14 +46,13 @@ section {
     background: green;
 }
 
-
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-li {
+.menu-button li {
     display: inline-block;
     background-color: rgb(49, 49, 49);
     border-radius: 5px;
@@ -67,9 +69,13 @@ li:first-child {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 footer {
     background: black;
-    padding: 10px 20px; 
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
 }
