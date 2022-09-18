@@ -1,81 +1,79 @@
 body {
-    background: rgb(49, 49, 49);
-    color: white;
-    font-family: Hevetica Neue, Helverica, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  background: rgb(49, 49, 49);
+  color: white;
+  font-family: Hevetica Neue, Helverica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background: black;
-    padding: 20px 40px;
-
+  background: black;
+  padding: 20px 40px;
 }
 
 header a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-
 section {
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .feature-box div {
-    margin: auto;
-    width: 100px;
-    color: white;
-    border-radius: 10px;
-    padding: 5px;
+  margin: auto;
+  width: 100px;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .feature-box.index div {
-    background: red;
+  background: red;
 }
 
 .feature-box.datapacks div {
-    background: blue;
+  background: blue;
 }
 
-
 .feature-box.generators div {
-    background: green;
+  background: green;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .menu-button li {
-    display: inline-block;
-    background-color: rgb(49, 49, 49);
-    border-radius: 5px;
-    padding: 2px;
-    margin-left: 20px;
+  display: inline-block;
+  background-color: rgb(49, 49, 49);
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 20px;
 }
 
 li:hover {
-    background-color: rgb(255, 0, 195);
+  background-color: rgb(255, 0, 195);
 }
+
 li:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 footer {
-    background: black;
-    color: gray;
-    font-size: 12px;
-    padding: 20px 20px;
-    text-align: center;
+  background: black;
+  color: gray;
+  font-size: 12px;
+  padding: 20px 20px;
+  text-align: center;
 }
