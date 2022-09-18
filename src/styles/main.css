@@ -17,32 +17,6 @@ header a {
   text-transform: uppercase;
 }
 
-section {
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-}
-
-.feature-box div {
-  margin: auto;
-  width: 100px;
-  color: white;
-  border-radius: 10px;
-  padding: 5px;
-}
-
-.feature-box.index div {
-  background: red;
-}
-
-.feature-box.datapacks div {
-  background: blue;
-}
-
-.feature-box.generators div {
-  background: green;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -68,6 +42,36 @@ li:first-child {
 a {
   text-decoration: none;
   color: white;
+}
+
+.feature-box a:hover {
+  color: rgb(255, 0, 195);
+}
+
+section {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.feature-box div {
+  margin: auto;
+  width: 100px;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.feature-box.index div {
+  background: red;
+}
+
+.feature-box.datapacks div {
+  background: blue;
+}
+
+.feature-box.generators div {
+  background: green;
 }
 
 footer {
